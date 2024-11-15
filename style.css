@@ -1,0 +1,85 @@
+/* 基本のリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ボディのスタイル */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a4cecc;
+    color: #FFFFFF;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #abc0bc;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #E74C3C;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #E74C3C;
+}
+
+/* ナビゲーションのスタイル */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #E74C3C;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    border: 1px solid #E74C3C;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #E74C3C;
+    color: #FFFFFF;
+}
+
+/* メインコンテンツのスタイル */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00ad79;
+    border-radius: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #002a79;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+/* フッターのスタイル */
+footer {
+    text-align: center;
+    
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #292929;
+    border-top: 2px solid #E74C3C;
+}
+
+footer p {
+    color: #777777;
+}
