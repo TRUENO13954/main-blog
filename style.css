@@ -9,22 +9,22 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #a4cecc;
-    color: #FFFFFF;
+    color: #000000;
     line-height: 1.6;
-    padding: 20px;
+    padding: 0px;
 }
 
 /* ヘッダーのスタイル */
 header {
-    background-color: #abc0bc;
+    background-color: #30d4b6;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #E74C3C;
+    border-bottom: 2px solid #3c72e7;
 }
 
 header h1 {
     font-size: 2.5em;
-    color: #E74C3C;
+    color: #3ca8e7;
 }
 
 /* ナビゲーションのスタイル */
@@ -34,25 +34,25 @@ nav {
 }
 
 nav a {
-    color: #E74C3C;
+    color: #127aa3;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 15px;
     padding: 10px;
-    border: 1px solid #E74C3C;
+    border: 1px solid #127aa3;
     border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #E74C3C;
+    background-color: #127aa3;
     color: #FFFFFF;
 }
 
 /* メインコンテンツのスタイル */
 main {
-    max-width: 800px;
+    max-width: 75%;
     margin: 20px auto;
     padding: 20px;
-    background-color: #00ad79;
+    background-color: #00FFFF2d;
     border-radius: 10px;
 }
 
@@ -77,7 +77,7 @@ footer {
     margin-top: 20px;
     padding: 20px;
     background-color: #292929;
-    border-top: 2px solid #E74C3C;
+    border-top: 2px solid #00b9d1;
 }
 
 footer p {
